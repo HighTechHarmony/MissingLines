@@ -2,7 +2,7 @@
 
 # The purpose of this script is to print the lines in file2 that are not present in file1, regardless of order.
 
-unless ($#ARGV>=1) {die "Usage: different-lines.pl [file1.txt] [file2.txt]";}
+unless ($#ARGV>=1) {die "Usage: MissingLines.pl [file1.txt] [file2.txt]";}
 
 open (FILE1,$ARGV[0]) || die "Unable to open $ARGV[0]: $!\n";
 open (FILE2,$ARGV[1]) || die "Unable to open $ARGV[1]: $!\n";
